@@ -1,0 +1,26 @@
+.cc-navbar-top {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background-color: #fff !important;
+  border-bottom: 1px solid #eee;
+}
+
+.cc-search-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cc-search-icon {
+  font-size: 0.9rem;
+}
+
+.cc-search input {
+  font-size: 0.9rem;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.cc-search input:focus {
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.3);
+}

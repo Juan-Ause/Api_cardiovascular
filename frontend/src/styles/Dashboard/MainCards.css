@@ -1,0 +1,68 @@
+/* --- Botón "Generar Reporte" --- */
+.btn-generate-report {
+  background-color: #4e73df;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.15rem 0.3rem rgba(78, 115, 223, 0.3);
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-generate-report:hover {
+  background-color: #2e59d9;
+  box-shadow: 0 0.25rem 0.5rem rgba(46, 89, 217, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-generate-report:active {
+  transform: translateY(1px);
+}
+
+/* --- Colores de borde izquierdo --- */
+.border-left-primary {
+  border-left: 0.25rem solid #4e73df !important;
+}
+
+.border-left-success {
+  border-left: 0.25rem solid #1cc88a !important;
+}
+
+.border-left-info {
+  border-left: 0.25rem solid #36b9cc !important;
+}
+
+.border-left-warning {
+  border-left: 0.25rem solid #f6c23e !important;
+}
+
+/* --- Colores de texto neutros --- */
+.text-gray-800 {
+  color: #5a5c69 !important;
+}
+
+.text-gray-300 {
+  color: #dddfeb !important;
+}
+
+/* --- Efectos visuales de tarjetas --- */
+.card {
+  transition: all 0.2s ease-in-out;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* --- Título Dashboard --- */
+h2.h3 {
+  color: #4e73df;
+  font-weight: 600;
+}

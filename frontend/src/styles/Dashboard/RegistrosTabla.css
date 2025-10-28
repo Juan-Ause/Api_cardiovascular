@@ -1,0 +1,59 @@
+.registro-tabla-container {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-top: 2rem;
+}
+
+.tabla-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #f0358c;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.icono-header {
+  font-size: 1.8rem;
+  color: #f66969;
+}
+
+.titulo-tabla {
+  font-weight: 600;
+  color: #333;
+}
+
+.encabezado-tabla {
+  background-color: #f1f7ff;
+  color: #9e3556;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tabla-registros th, .tabla-registros td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9rem;
+}
+
+.tabla-registros tr:hover {
+  background-color: #f9fbff;
+}
+
+.badge {
+  padding: 0.4em 0.7em;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.registro-cargando {
+  text-align: center;
+  margin-top: 3rem;
+  color: #007bff;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
