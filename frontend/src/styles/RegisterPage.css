@@ -1,0 +1,157 @@
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-card {
+  background-color: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  max-width: 950px;
+  width: 90%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* FORMULARIO */
+.register-form-section {
+  padding: 50px 40px;
+}
+
+.register-title {
+  color: #dc3545;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.register-subtitle {
+  color: #444;
+  font-size: 1rem;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #222;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(179, 0, 0, 0.25);
+}
+
+.input-group-text {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.register-button {
+  background-color: #dc3545;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(179, 0, 0, 0.3);
+}
+
+.register-button:hover {
+  background-color: #dc3545;
+  box-shadow: 0 6px 15px rgba(179, 0, 0, 0.4);
+}
+
+.login-link {
+  color: #dc3545;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* SECCIÓN DERECHA */
+.register-welcome-section {
+  background: linear-gradient(135deg, #dc3545 0%, #ca2232 100%);
+  color: white;
+  padding: 60px 40px;
+  position: relative;
+}
+
+.register-welcome-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('/assets/unilibre-bg.png') center/cover no-repeat;
+  opacity: 0.08;
+  z-index: 0;
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 1;
+}
+
+.unilibre-logo {
+  width: 110px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
+}
+
+.welcome-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  font-size: 1rem;
+  color: #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.welcome-button {
+  background-color: white;
+  color: #dc3545;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.welcome-button:hover {
+  background-color: #f7f7f7;
+  transform: translateY(-2px);
+}
+
+/* RESPONSIVO */
+@media (max-width: 992px) {
+  .register-form-section {
+    padding: 35px 25px;
+  }
+
+  .register-welcome-section {
+    padding: 45px 25px;
+  }
+
+  .welcome-title {
+    font-size: 1.5rem;
+  }
+
+  .unilibre-logo {
+    width: 80px;
+  }
+}
