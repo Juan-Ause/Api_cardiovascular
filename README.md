@@ -225,7 +225,7 @@ npm run dev
 
 ## 👥 Autores
 
-- Juan Camilo Ausecha Gutiérrez
+- Juan Camilo Ausecha Gutierrez
 - Julian Rios
 - Universidad Libre - Facultad de Ingeniería
 - Proyecto de grado 2025
